@@ -8,3 +8,139 @@ html,body{
     font-family: "Inter", sans-serif;
     font-weight: 400;
 }
+.main{
+    background-color:#aec3b0;
+    width: 100%;
+    height: 100%;
+}
+.navbar{
+    display: flex;
+    padding: 15px;
+}
+#logo{
+    width: 66px;
+    height: 66px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.navitems{
+    display: flex;
+    padding: 20px;
+    margin-left: 90px;
+}
+.itms{
+    margin-left: 40px;
+    font-size: 19px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.navicon{
+    display: flex;
+    margin-left: 315px;
+}
+#nav2{
+    margin-left: 40px;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.content{
+    height: calc(100%-110px);
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+.contLeft{
+    height: 100%;
+    width: 41%;
+    padding: 80px 100px;
+}
+.contLeft h5{
+    text-transform: capitalize;
+    color: #598392;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.contLeft h1{
+    font-size: 55px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.contLeft p{
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 28px;
+    width: 101%;
+}
+.btn{
+    background-color: #124559;
+    font-weight: 600;
+    padding: 12px 40px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    border-top-left-radius: 0;
+}
+.contLeft .btn:hover{
+    background-color: #598392;
+}
+
+.contRight{
+    height: 100%;
+    width: 71%;
+    padding: 109px 100px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+.contRight::-webkit-scrollbar{
+    display: none;
+}
+.product{
+    height: 370px;
+    width: 249px;
+    background-color: #bbc8bc;
+    position: relative;
+    box-shadow: 0 5px 10px rgba(17, 0, 17, 0.3);
+    display: inline-block;
+    margin: 10px;
+}
+.product img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    position: absolute;
+    bottom: 20%;
+}
+.product h4{
+    text-transform: capitalize;
+    margin-left: 50px;
+    font-size: 18px;
+    text-transform: capitalize;
+    bottom: 28%;
+    position: absolute;
+}
+.category{
+    text-transform: capitalize;
+    margin-left: 65px;
+    position: absolute;
+    bottom: 20%;
+    font-weight: 500;
+}
+.color{
+    text-transform: capitalize;
+    margin-left: 65px;
+    position: absolute;
+    bottom: 15%;
+    font-weight: 500;
+}
+.price{
+    text-transform: capitalize;
+    margin-left: 50px;
+    position: absolute;
+    bottom: 5%;
+    font-weight: 600;
+    font-size: 18px;
+}
